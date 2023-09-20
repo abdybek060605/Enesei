@@ -1,0 +1,129 @@
+.li1::marker:hover {
+  color: green;
+}
+
+p::first-line {
+  color: red;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+p::first-letter {
+  color: blue;
+  font-size: 40px;
+}
+
+.li1:hover::marker {
+  color: blue;
+}
+
+.li2:hover::marker {
+  color: blue;
+}
+.li3:hover::marker {
+  color: blue;
+}
+.li4:hover::marker {
+  color: blue;
+}
+.li5:hover::marker {
+  color: blue;
+}
+.li6:hover::marker {
+  color: blue;
+}
+.li7:hover::marker {
+  color: blue;
+}
+.li8:hover::marker {
+  color: blue;
+}
+
+/*  */
+.spn1 {
+  width: 300px;
+}
+
+/*  */
+.box1 {
+  cursor: not-allowed;
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(red, blue);
+}
+
+.box2:hover {
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 50%;
+  color: white;
+  background: linear-gradient(red, blue);
+}
+
+.box3:active {
+  width: 150px;
+  height: 150px;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background: linear-gradient(red,blue);
+  /* font-family: cursive; */
+}
+
+.box4:focus {
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: justify-contentcenter;
+  background: linear-gradient(black, white);
+  color: white;
+}
+
+.box2 {
+  width: 200px;
+  height: 85px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.box3 {
+  width: 200px;
+  height: 85px;
+}
+.box4 {
+  width: 200px;
+  height: 85px;
+}
+
+.dv2 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+.dv3 {
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+}
+
+.dv4 {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
